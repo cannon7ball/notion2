@@ -94,11 +94,17 @@
 
     .icon {
     margin-right: 5px; /* Add some space between the icon and the title */
+    cursor: pointer;
     }
 
     .title {
     font-size: 16px; /* Adjust font size as needed */
     color: #7a7a7a; /* Change color if necessary */
+    cursor: pointer;
+    }
+    
+    .title:hover {
+      color: #000000;
     }
 
     
@@ -113,15 +119,6 @@
     <div class="wrapper">
 
 
-      <!-- Start email Icon -->
-      <div id="email" onclick="navigate(this.id)" class="social">
-        <span class="icon email"><i class="fa-solid fa-envelope"></i></span>
-        <span class="title"> Email</span> <!-- Title next to the icon -->
-      </div>
-      <!-- End email Icon -->
-
-
-
       <!-- Start telegram Icon --> 
       <div id="telegram" onclick="navigate(this.id)" class="social">
         <span class="icon telegram"><i class="fab fa-telegram"></i></span>
@@ -129,16 +126,6 @@
       </div>
       <!-- End telegram Icon -->
 
-      
-
-
-      <!-- Start WhatsApp Icon -->
-      <div id="whatsapp" onclick="navigate(this.id)" class="social">
-        <span class="icon whatsapp"><i class="fab fa-whatsapp"></i></span>
-        <span class="title"> WhatsApp</span> <!-- Title next to the icon -->
-      </div>
-      <!-- End WhatsApp Icon -->
-      
 
 
     </div>
